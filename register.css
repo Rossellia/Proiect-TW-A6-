@@ -40,7 +40,7 @@ body {background-color: white;
       margin: 5px 0 25px 0;
       display: inline-block;
       border: none;
-      background: #f1f1f1;
+      background: rgb(235, 235, 235);
     }
     input[type=text]:focus, input[type=password]:focus {
       background-color: #ddd;
@@ -114,7 +114,7 @@ body {background-color: white;
       border-radius: 5px;
       width: 30%;
       position: relative;
-      transition: all 5s ease-in-out;
+      transition: all 2s ease-in-out;
     }
     
     .popup h2 {
@@ -126,10 +126,10 @@ body {background-color: white;
       position: absolute;
       top: 20px;
       right: 30px;
-      transition: all 200ms;
+      transition: all 150ms;
       font-size: 30px;
       font-weight: bold;
-      text-decoration: none;
+
       color: #333;
     }
     .popup .close:hover {
@@ -138,19 +138,13 @@ body {background-color: white;
     .popup .content {
       max-height: 30%;
       overflow: auto;
-    }
-    
-    
-    
-     
+    } 
      .container {
       display: block;
       position: relative;
       padding-left: 50px;
       margin-bottom: 5px;
-      cursor: pointer;
-    
-     
+      cursor: pointer;   
     }
     
     
@@ -181,26 +175,6 @@ body {background-color: white;
       background-color: rgb(38, 8, 63);
     }
     
-    
-    
-    @media screen and (max-width: 700px){
-      .Register{
-          width:70%;
-      }
-      .RegisterCont{
-          width:70%;
-      }
-      .box{
-        width: 70%;
-      }
-      .popup{
-        width: 70%;
-      }
-      .content
-      {
-          width: 70%;
-      }
-    }
     @media screen and (min-width : 300px) and (max-width : 480px) {
       body {
         background: #999;
@@ -236,12 +210,244 @@ body {background-color: white;
       width: 80%;
       margin: 7px auto;
       padding: 5px;
+      background: white;
+      font-size: 10pt;
+      border-radius: 15px;
+      overflow: hidden;
+      position: relative;
+      transition: all 2s ease-in-out;
+    }
+    .popup h2 {
+      margin-top: 25px;
+      font-size: 10pt;
+      color: #333;
+      font-family: Tahoma, Arial, sans-serif;
+    }
+
+         .container {
+      display: block;
+      position: relative;
+      padding-left: 25px;
+      margin-bottom: 10px;
+      cursor: pointer;
+    
+     
+    }
+    .checkmark {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 15px;
+      width: 15px;
+      background-color: rgb(218, 218, 218);
+    }
+
+    .box {
+      width: 100%;
+      margin: 0;
+      padding: 35px;
+      text-align: center;
+    }
+    
+    .button {
+    background-color: #8080ff;
+      color: white;
+      text-align: center;
+      padding: 10px 10px; 
+      border: none;
+      cursor: pointer;
+      opacity: 0.5;
+    }
+    .button:hover {
+        opacity:1;
+    }
+    .RegisterCont {
+      background-color: #8080ff;
+      color: white;
+      width:50%;
+      padding: 10px 10px;
+      margin: 15px 0; 
+      border: none;
+      cursor: pointer;
+      opacity: 0.5;
+    }
+    
+    .RegisterCont:hover {
+      opacity:1;
+    }
+
+    .popup .close {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      transition: all 150ms;
+      font-size: 30px;
+      color: #333;
+    }
+
+    p { color:  #26004d;
+      text-align: left; 
+      font-size:12pt; font-family: Tahoma, Arial, sans-serif;
+     
+      }
+    }
+    @media screen and (min-width : 768px) and (max-width : 1100px) {
+      body {
+        background: #999;
+        width: 100%;
+        font-size: 12pt;
+        background:linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("Resurse imagini/bg5.jpg");
+      }
+      .Register{
+       
+        background-color:white;
+    /*background:linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("Resurse imagini/bg3.jpeg");*/
+      background-clip: padding-box;
+      width:100%;
+      
+      border-radius: 5px;
+      padding: 20px;
+      text-align:center;
+      position: relative;
+        left:0%;
+        right: 50%;  
+        margin: auto;
+    }
+    .accountnotfound
+    {
+      color:Black;
+      text-align:left;
+      font-size:10pt;
+      
+    }
+  
+  
+    .popup{
+      width: 50%;
+      margin: 7px auto;
+      padding: 5px;
+      background: #fff;
+      font-size: 16pt;
+      border-radius: 5px;
+      overflow: hidden;
+      position: relative;
+      transition: all 2s ease-in-out;
+    }
+    .popup h2 {
+      margin-top: 17px;
+      font-size: 10pt;
+      color: #333;
+      font-family: Tahoma, Arial, sans-serif;
+    }
+
+         .container {
+      display: block;
+      position: relative;
+      padding-left: 30px;
+      margin-bottom: 20px;
+      cursor: pointer;
+    
+     
+    }
+    .checkmark {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 20px;
+      width: 20px;
+      background-color: rgb(218, 218, 218);
+    }
+
+    .box {
+      width: 100%;
+      margin: 0;
+      padding: 35px;
+      text-align: center;
+    }
+    
+    .button {
+    background-color: #8080ff;
+      color: white;
+      text-align: center;
+      padding: 10px 10px; 
+      border: none;
+      cursor: pointer;
+      opacity: 0.5;
+    }
+    .button:hover {
+        opacity:1;
+    }
+    .RegisterCont {
+      background-color: #8080ff;
+      color: white;
+      width:50%;
+      padding: 10px 10px;
+      margin: 15px 0; 
+      border: none;
+      cursor: pointer;
+      opacity: 0.5;
+    }
+    
+    .RegisterCont:hover {
+      opacity:1;
+    }
+
+    .popup .close {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      transition: all 150ms;
+      font-size: 30px;
+      color: #333;
+    }
+
+    p { color:  #26004d;
+      text-align: left; 
+      font-size:10pt; font-family: Tahoma, Arial, sans-serif;
+     
+      }
+    }
+    @media screen and (min-width : 481px) and (max-width : 767px) {
+      body {
+        background: #999;
+        width: 100%;
+        font-size: 12pt;
+        background:linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("Resurse imagini/bg5.jpg");
+      }
+      .Register{
+       
+        background-color:white;
+    /*background:linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("Resurse imagini/bg3.jpeg");*/
+      background-clip: padding-box;
+      width:100%;
+      
+      border-radius: 5px;
+      padding: 2px;
+      text-align:center;
+      position: relative;
+        left:0%;
+        right: 50%;  
+        margin: auto;
+    }
+    .accountnotfound
+    {
+      color:Black;
+      text-align:left;
+      font-size:10pt;
+      
+    }
+  
+  
+    .popup{
+      width: 50%;
+      margin: 7px auto;
+      padding: 5px;
       background: #fff;
       font-size: 10pt;
       border-radius: 5px;
       overflow: hidden;
       position: relative;
-      transition: all 5s ease-in-out;
+      transition: all 2s ease-in-out;
     }
     .popup h2 {
       margin-top: 25px;
@@ -306,134 +512,14 @@ body {background-color: white;
       position: absolute;
       top: 5px;
       right: 5px;
-      transition: all 200ms;
+      transition: all 150ms;
       font-size: 30px;
-      font-weight: bold;
-      text-decoration: none;
       color: #333;
     }
 
     p { color:  #26004d;
       text-align: left; 
-      font-size:12pt; font-family: Tahoma, Arial, sans-serif;
-     
-      }
-    }
-    @media screen and (min-width : 768px) and (max-width : 1100px) {
-      body {
-        background: #999;
-        width: 100%;
-        font-size: 12pt;
-        background:linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("Resurse imagini/bg5.jpg");
-      }
-      .Register{
-       
-        background-color:white;
-    /*background:linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("Resurse imagini/bg3.jpeg");*/
-      background-clip: padding-box;
-      width:100%;
-      
-      border-radius: 5px;
-      padding: 20px;
-      text-align:center;
-      position: relative;
-        left:0%;
-        right: 50%;  
-        margin: auto;
-    }
-    .accountnotfound
-    {
-      color:Black;
-      text-align:left;
-      font-size:10pt;
-      
-    }
-  
-  
-    .popup{
-      width: 50%;
-      margin: 7px auto;
-      padding: 5px;
-      background: #fff;
-      font-size: 16pt;
-      border-radius: 5px;
-      overflow: hidden;
-      position: relative;
-      transition: all 5s ease-in-out;
-    }
-    .popup h2 {
-      margin-top: 25px;
-      font-size: 16pt;
-      color: #333;
-      font-family: Tahoma, Arial, sans-serif;
-    }
-
-         .container {
-      display: block;
-      position: relative;
-      padding-left: 30px;
-      margin-bottom: 20px;
-      cursor: pointer;
-    
-     
-    }
-    .checkmark {
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 20px;
-      width: 20px;
-      background-color: rgb(218, 218, 218);
-    }
-
-    .box {
-      width: 100%;
-      margin: 0;
-      padding: 35px;
-      text-align: center;
-    }
-    
-    .button {
-    background-color: #8080ff;
-      color: white;
-      text-align: center;
-      padding: 10px 10px; 
-      border: none;
-      cursor: pointer;
-      opacity: 0.5;
-    }
-    .button:hover {
-        opacity:1;
-    }
-    .RegisterCont {
-      background-color: #8080ff;
-      color: white;
-      width:50%;
-      padding: 10px 10px;
-      margin: 15px 0; 
-      border: none;
-      cursor: pointer;
-      opacity: 0.5;
-    }
-    
-    .RegisterCont:hover {
-      opacity:1;
-    }
-
-    .popup .close {
-      position: absolute;
-      top: 5px;
-      right: 5px;
-      transition: all 200ms;
-      font-size: 30px;
-      font-weight: bold;
-      text-decoration: none;
-      color: #333;
-    }
-
-    p { color:  #26004d;
-      text-align: left; 
-      font-size:12pt; font-family: Tahoma, Arial, sans-serif;
+      font-size:10pt; font-family: Tahoma, Arial, sans-serif;
      
       }
     }
