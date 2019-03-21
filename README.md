@@ -1,6 +1,6 @@
 # Proiect-TW-A6-
-Realizat de:Bucnaru Raluca
-            Tulbure Lucia
+Realizat de:Bucnaru Raluca,
+            Tulbure Lucia,
             Bardita Larisa B5
 
 ## Descrierea proiectului
@@ -22,8 +22,8 @@ anumite limbaje de programare, evenimentele afisate vor fi aleatorii.
 2.Utilizatorii ce doresc sa se inregistreze pot intra pe pagina de register unde vor trebui sa introduca adresa de e-mail,un nume de 
 utilizator si o parola. De asemenea, acestia pot bifa ce limbaje de programare stiu.
 
-3. Utilizatorii autentificati vor fi trimisi la o alta pagina principala ce va contine diferite butoane. Aceste butoane, la apasarea lor, 
-vor duce la alte pagini,precum pagina de evenimente, pagina in care utilizatorul poate raspunde la anumite teste, et cetera.
+3. Utilizatorii autentificati vor fi trimisi la o alta pagina principala ce va contine diferite butoane. Aceste butoane, la apasarea 
+lor, vor duce la alte pagini,precum pagina de evenimente, pagina in care utilizatorul poate raspunde la anumite teste, et cetera.
 
 ### Tehnologii
 
