@@ -96,7 +96,7 @@ p {
       border-radius: 5px;
       overflow: hidden;
       position: relative;
-      transition: all 5s ease-in-out;
+      transition: all 2s ease-in-out;
     }
     .popup h2 {
       margin-top: 25px;
@@ -108,10 +108,8 @@ p {
       position: absolute;
       top: 5px;
       right: 5px;
-      transition: all 200ms;
+      transition: all 150ms;
       font-size: 30px;
-      font-weight: bold;
-      text-decoration: none;
       color: #333;
     }
     .popup .content {
@@ -228,7 +226,7 @@ p {
           border-radius: 5px;
           overflow: hidden;
           position: relative;
-          transition: all 5s ease-in-out;
+          transition: all 2s ease-in-out;
         }
         .popup h2 {
           margin-top: 15px;
@@ -264,10 +262,8 @@ p {
           position: absolute;
           top: 5px;
           right: 5px;
-          transition: all 200ms;
+          transition: all 150ms;
           font-size: 30px;
-          font-weight: bold;
-          text-decoration: none;
           color: #333;
         }
       
@@ -504,7 +500,7 @@ p {
             border-radius: 5px;
             overflow: hidden;
             position: relative;
-            transition: all 5s ease-in-out;
+            transition: all 2s ease-in-out;
           }
           .popup h2 {
             margin-top: 5px;
@@ -540,10 +536,9 @@ p {
             position: absolute;
             top: 5px;
             right: 5px;
-            transition: all 200ms;
+            transition: all 150ms;
             font-size: 30px;
-            font-weight: bold;
-            text-decoration: none;
+
             color: #333;
           }
         
