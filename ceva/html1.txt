@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <title> Pagina principala </title>
+        <link rel="stylesheet" type="text/css" href="homecss.css">
+    </head>
+    <body>
+        <div class="div1"> 
+            <ul class="meniu">
+                <li><a class="active men men1" href="#home">Home</a></li>
+                <li><a class="men men1" href="#news">News</a></li>
+                <li><a class="men men1" href="#contact">Contact</a></li>
+                <li><a class="men men1" href="#about">About</a></li>
+            </ul>
+        </div>
+
+        <div class="div2">
+                <img src="p2.png" class="image" alt="userphoto">
+                <form action="/action_page.php">
+                    <label>Username:</label>
+                    <br>
+                    <input type="text" name="user" class="input">
+                    <br>
+                    <label>Pasword:<br></label>
+                    <input type="text" name="pass" class="input">
+                    <br>
+                    <input type="submit" value="Submit" class="input">
+                </form>        
+                <p>If you want one <a href="register.html">create an account</a></p>
+        </div>
+        <div class="div3">
+                <form>
+                    <input type="text" name="search" placeholder="Search.." class="field"> 
+                </form>
+                <div class="div4">
+                    <ul class="aa">
+                        <li><a target="_blank" href="https://www.levi9.com/student-opportunities/romania/scholarship-romania/" class="txt">https://www.levi9.com/student-opportunities/romania/scholarship-romania/</a></li>
+                        <li><a target="_blank" href="https://iasievents.ro/event/pod-de-martie-on-motion-graphics/" class="txt">https://iasievents.ro/event/pod-de-martie-on-motion-graphics/</a></li>
+                        <li><a target="_blank" href="https://iasievents.ro/event/iasi-o-putere-digitala-in-crestere-bazata-pe-abilitati-si-antreprenoriat/" class="txt">https://iasievents.ro/event/iasi-o-putere-digitala-in-crestere-bazata-pe-abilitati-si-antreprenoriat/</a></li>
+                        <li><a target="_blank" href="https://iasievents.ro/event/uiux-frontend-centric/" class="txt">https://iasievents.ro/event/uiux-frontend-centric/</a></li>
+                        <li><a target="_blank" href="https://iasievents.ro/event/chrome-devtools-breakdown-get-to-know-your-web-app/" class="txt">https://iasievents.ro/event/chrome-devtools-breakdown-get-to-know-your-web-app/</a></li>
+                        <li><a target="_blank" href="https://iasievents.ro/event/f9-tech-fest-spring-edition-workshop-de-la-ide-la-www/" class="txt">https://iasievents.ro/event/f9-tech-fest-spring-edition-workshop-de-la-ide-la-www/</a></li>
+                    </ul>
+                    
+                </div>
+        </div>
+        
+    </body>
+</html>
+    
