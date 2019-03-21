@@ -39,6 +39,8 @@ html{
     width: 33.33%;
     font-size:30px;
     text-align: center;
+    background-color: rgb(3, 3, 70,0.4);
+
   }
   
   /* Clear floats after the columns */
@@ -48,15 +50,13 @@ html{
     clear: both;
   }
   
-  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  /*  makes the three columns stack on top of each other instead of next to each other */
   @media screen and (max-width:800px) {
     .column {
       width: 100%;
     }
   }
-  .column{
-background-color: rgb(3, 3, 70,0.4);
-  }
+  
   .question1{
    padding: 10%;
   }
@@ -113,6 +113,12 @@ background-color: rgb(3, 3, 70,0.4);
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+
+
+
+
+  
   .choose{
     padding: 20px;
     font-size:20px;

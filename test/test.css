@@ -13,7 +13,7 @@ html{
     text-decoration: #fff;
     color:white;
     padding:5px;
-    border:2px solid white;
+   
     cursor:pointer;
 }
 .back{
@@ -27,13 +27,22 @@ html{
 
 
 }
+h2{
+  text-align: center;
+  color:white;
+}
+.feedback{
+  text-align: center;
+  padding:10px;
+
+}
   .header2 {
     background-color: rgb(8, 3, 66);
     padding: 20px;
     display: inline-block;
     width:100%;
     height: auto;
-    text-align:center;
+    
   }
   header{
     text-align: center;
@@ -68,19 +77,29 @@ html{
     .column {
       width: 100%;
     }
+    .cauta{
+     display :block;
+    }
+    .box{
+      width: 100%;
+  
+    }
+
+    .close{
+      font-size:10px;
+    }
+    .button{
+      font-size:10px;
+    }
   }
 
-img{
-  height: auto;
-  width:100%;
-  border:2px solid red;
-}
+
 .button:hover{
   background-color: rgb(140, 95, 224);
 
 }
 .box {
-  width: 40%;
+  
   margin: auto;
   padding: 35px;
  
@@ -122,9 +141,9 @@ img{
   padding: 20px;
   background: #fff;
   border-radius: 5px;
-  width: 30%;
+  width: 80%;
   position: relative;
-  transition: all 5s ease-in-out;
+  transition: all 2s ease-in-out;
 }
 
 .popup h2 {
@@ -145,16 +164,4 @@ img{
 .popup .close:hover {
   color: rgb(130, 119, 228);
 }
-.popup .content1 {
-  max-height: 30%;
-  overflow: auto;
-}
 
-@media screen and (max-width: 700px){
-  .box{
-    width: 70%;
-  }
-  .popup{
-    width: 70%;
-  }
-}
