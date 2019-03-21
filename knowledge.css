@@ -24,7 +24,7 @@
   {
     background-color:white;
     opacity:0.9;
-      background-clip: padding-box;
+      background-clip: padding-box; /*The background extends to the inside edge of the border*/
       width:50%;
       
       border-radius: 15px;
@@ -83,7 +83,9 @@ p {
       opacity: 0;
       z-index:999;
     }
-    .overlay:target {
+    .overlay:target { /*URLs with an # followed by an anchor name link to a certain element within a document. 
+        The element being linked to is the target element.
+        The :target selector can be used to style the current active target element.*/
       visibility: visible;
       opacity: 1;
     }
@@ -168,9 +170,9 @@ p {
       }
       
     
-      .content::after {
+      .content::after { /*The ::after selector inserts something after the content of each selected element(s).*/
         content: "";
-        clear: both;
+        clear: both; /*	No floating elements allowed on either the left or the right side */
         display: table;
       }
       .iframe
