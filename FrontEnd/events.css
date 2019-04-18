@@ -1,0 +1,528 @@
+.Back {
+    background-color: #5353d3;
+    color: white;
+    padding: 10px;
+    padding: 15px 25px;
+    margin: 25px 0; 
+    border: none;
+    cursor: pointer;
+    opacity: 0.7;
+  }
+.Back:hover
+{
+    opacity:1;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+  .Events
+  {
+    background-color:white;
+    opacity:0.9;
+    /*background:linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("Resurse imagini/bg3.jpeg");*/
+      background-clip: padding-box;
+      width:50%;
+      
+      border-radius: 5px;
+      padding: 5px;
+      text-align:center;
+      position: relative;
+      left: 0%;
+      right: 50%;
+      bottom:50%;
+          
+        margin: auto;
+  }
+  
+ 
+
+
+  form.searchbox input[type=text] {
+    position:relative;
+    right:42%;
+    top:50%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 5px;
+    float: right;
+    width: 20%;
+    background: #f1f1f1;
+    margin-top:30px;
+    margin-bottom: 50px;
+  }
+
+
+  
+
+  form.searchbox button {
+    float: right;
+    position:relative;
+    right:17%;
+    top:50%;
+    
+    width: 5%;
+    padding: 10px;
+    background: rgb(232, 248, 247);
+    color: white;
+    font-size: 17px;
+    border: 1px solid rgb(87, 87, 87);
+    border-radius: 7px;
+    cursor: pointer;
+    margin-bottom: 50px;
+    margin-top:30px;
+  }
+  
+  form.searchbox button:hover {
+    background: #6f369e;
+  }
+  
+
+  form.searchbox::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  
+    h1   {color:  #075ca1;
+         text-align: center; 
+         margin-top: 50px;
+         font-family: Tahoma, Arial, sans-serif;
+         font-size: 24pt;
+        
+         }
+    p {
+      margin-top:50px; 
+      color:  #26004d;
+         text-align: left; 
+         margin-left: 80px;
+         margin-bottom:70px;
+         
+         font-size:16pt; font-family: Tahoma, Arial, sans-serif;
+         }
+
+         .box {
+          width: 100%;
+          margin: 0 auto;
+          padding: 35px;
+          text-align: center;
+        }
+        
+        .button {
+        background-color: #8080ff;
+          color: white;
+          padding: 10px;
+          padding: 15px 25px;
+          margin: 25px 0; 
+          border: none;
+          cursor: pointer;
+          opacity: 0.5;
+        }
+        .button:hover {
+            opacity:1;
+        }
+        
+        .overlay {
+          position: fixed;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          background: rgba(0, 0, 0, 0.7);
+          transition: opacity 500ms;
+          visibility: hidden;
+          opacity: 0;
+          z-index:999;
+        }
+        .overlay:target {
+          visibility: visible;
+          opacity: 1;
+        }
+        .popup{
+          width: 50%;
+          margin: 7px auto;
+          padding: 50px;
+          background: #fff;
+          font-size: 10pt;
+          border-radius: 5px;
+          overflow: hidden;
+          position: relative;
+          transition: all 2s ease-in-out;
+        }
+        .popup h2 {
+          margin-top: 25px;
+          font-size: 24pt;
+          color: #333;
+          font-family: Tahoma, Arial, sans-serif;
+        }
+        .popup .close {
+          position: absolute;
+          top: 5px;
+          right: 5px;
+          transition: all 150ms;
+          font-size: 30px;
+
+          color: #333;
+        }
+         
+  body
+  {
+    background-image:linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),url("Resurse imagini/conference.jpg");
+  }
+
+
+
+  @media screen and (min-width : 300px) and (max-width : 480px) {
+    body {
+      background: #999;
+      width: 100%;
+      font-size: 12pt;
+      background-image:linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),url("Resurse imagini/conference.jpg");
+    }
+    .Back {
+      background-color: #5353d3;
+      color: white;
+      padding: 5px;
+      margin: 0;
+      border: none;
+      cursor: pointer;
+      opacity: 0.7;
+    }
+  .Back:hover
+  {
+      opacity:1;
+  }
+    .Events{
+     
+      background-color:white;
+  /*background:linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("Resurse imagini/bg3.jpeg");*/
+    background-clip: padding-box;
+    width:100%;
+    
+    border-radius: 5px;
+    padding: 2px;
+    text-align:center;
+    position: relative;
+      left:0%;
+      right: 50%;  
+      margin: auto;
+      margin-top:15px;
+  }
+ 
+  .popup{
+    width: 100%;
+    margin: 7px auto;
+    padding: 5px;
+    background: #fff;
+    font-size: 10pt;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    transition: all 2s ease-in-out;
+  }
+  .popup h2 {
+    margin-top: 5px;
+    font-size: 14pt;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+  }
+
+    
+
+  .box {
+    width: 100%;
+    margin: 0;
+    padding: 35px;
+    text-align: center;
+  }
+  
+  .button {
+  background-color: #8080ff;
+    color: white;
+    text-align: center;
+    padding: 10px 10px; 
+    border: none;
+    cursor: pointer;
+    opacity: 0.5;
+  }
+  .button:hover {
+      opacity:1;
+  }
+  
+
+  .popup .close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    transition: all 150ms;
+    font-size: 30px;
+
+    color: #333;
+  }
+
+  p {
+    margin-top:50px; 
+    color:  #26004d;
+       text-align: left; 
+       margin-left: 10px;
+       margin-bottom: 20px;
+       
+       font-size:12pt; font-family: Tahoma, Arial, sans-serif;
+       }
+
+
+    form.searchbox input[type=text] {
+      position:relative;
+      right:20%;
+      top:50%;
+      padding: 5px;
+      font-size: 18px;
+      border: 1px solid rgb(177, 177, 177);
+      border-radius: 5px;
+      float: right;
+      width: 50%;
+      background: #f1f1f1;
+      margin-top:10px;
+      margin-bottom: 20px;
+    }
+  
+    form.searchbox button {
+      float: right;
+      position:relative;
+      right:20%;
+      top:50%;
+      
+      width: 13%;
+      padding: 5px;
+      background: rgb(232, 248, 247);
+      color: white;
+      font-size: 17px;
+      border: 1px solid rgb(87, 87, 87);
+      border-radius: 7px;
+      cursor: pointer;
+      margin-bottom: 10px;
+      margin-top:10px;
+    }
+    
+    form.searchbox button:hover {
+      background: #6f369e;
+    }
+    
+   
+    form.searchbox::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    h1   {color:  #075ca1;
+      text-align: center; 
+      margin-top: 20px;
+      font-family: Tahoma, Arial, sans-serif;
+      font-size: 16pt;
+     
+      }
+  }
+
+  @media screen and (min-width : 768px) and (max-width : 1100px) {
+    form.searchbox input[type=text] {
+      position:relative;
+      right:38%;
+      top:50%;
+      padding: 5px;
+      font-size: 18px;
+      border: 1px solid rgb(177, 177, 177);
+      border-radius: 5px;
+      float: right;
+      width: 35%;
+      background: #f1f1f1;
+      margin-top:10px;
+      margin-bottom: 20px;
+    }
+  
+    form.searchbox button {
+      float: right;
+      position:relative;
+      right:-7%;
+      top:50%;
+      
+      width: 10%;
+      padding: 5px;
+      background: rgb(232, 248, 247);
+      color: white;
+      font-size: 17px;
+      border: 1px solid rgb(87, 87, 87);
+      border-radius: 7px;
+      cursor: pointer;
+      margin-bottom: 10px;
+      margin-top:10px;
+    }
+    
+    form.searchbox button:hover {
+      background: #6f369e;
+    }
+    
+   
+    form.searchbox::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+
+
+  }
+  @media screen and (min-width : 481px) and (max-width : 767px)
+  {
+    body {
+      background: #999;
+      width: 100%;
+      font-size: 12pt;
+      background-image:linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),url("Resurse imagini/conference.jpg");
+    }
+    .Back {
+      background-color: #5353d3;
+      color: white;
+      padding: 5px;
+      margin: 0;
+      border: none;
+      cursor: pointer;
+      opacity: 0.7;
+    }
+  .Back:hover
+  {
+      opacity:1;
+  }
+    .Events{
+     
+      background-color:white;
+  /*background:linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("Resurse imagini/bg3.jpeg");*/
+    background-clip: padding-box;
+    width:100%;
+    
+    border-radius: 5px;
+    padding: 2px;
+    text-align:center;
+    position: relative;
+      left:0%;
+      right: 50%;  
+      margin: auto;
+      margin-top:15px;
+  }
+ 
+  .popup{
+    width: 100%;
+    margin: 7px auto;
+    padding: 5px;
+    background: #fff;
+    font-size: 10pt;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    transition: all 2s ease-in-out;
+  }
+  .popup h2 {
+    margin-top: 5px;
+    font-size: 14pt;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+  }
+
+    
+
+  .box {
+    width: 100%;
+    margin: 0;
+    padding: 35px;
+    text-align: center;
+  }
+  
+  .button {
+  background-color: #8080ff;
+    color: white;
+    text-align: center;
+    padding: 10px 10px; 
+    border: none;
+    cursor: pointer;
+    opacity: 0.5;
+  }
+  .button:hover {
+      opacity:1;
+  }
+  
+
+  .popup .close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    transition: all 150ms;
+    font-size: 30px;
+    color: #333;
+  }
+
+  p {
+    margin-top:50px; 
+    color:  #26004d;
+       text-align: left; 
+       margin-left: 10px;
+       margin-bottom: 20px;
+       
+       font-size:12pt; font-family: Tahoma, Arial, sans-serif;
+       }
+
+
+    form.searchbox input[type=text] {
+      position:relative;
+      right:20%;
+      top:50%;
+      padding: 5px;
+      font-size: 18px;
+      border: 1px solid rgb(177, 177, 177);
+      border-radius: 5px;
+      float: right;
+      width: 50%;
+      background: #f1f1f1;
+      margin-top:10px;
+      margin-bottom: 20px;
+    }
+  
+    form.searchbox button {
+      float: right;
+      position:relative;
+      right:20%;
+      top:50%;
+      
+      width: 13%;
+      padding: 5px;
+      background: rgb(232, 248, 247);
+      color: white;
+      font-size: 17px;
+      border: 1px solid rgb(87, 87, 87);
+      border-radius: 7px;
+      cursor: pointer;
+      margin-bottom: 10px;
+      margin-top:10px;
+    }
+    
+    form.searchbox button:hover {
+      background: #6f369e;
+    }
+    
+   
+    form.searchbox::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    h1   {color:  #075ca1;
+      text-align: center; 
+      margin-top: 20px;
+      font-family: Tahoma, Arial, sans-serif;
+      font-size: 16pt;
+     
+      }
+  }
