@@ -1,0 +1,35 @@
+.question {
+    /* border: 1px solid black; */
+}
+
+body {
+    background-image: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url("p8.jpg");
+    padding: 20px;
+}
+
+.content {
+    background-color: white;
+    border-radius: 5px;
+    margin: 5%;
+    width: 90%;
+    height: auto;
+}
+
+.question {
+    padding: 20px;
+}
+
+.number {
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    background-color: rgb(31, 10, 1);
+    width: 200px;
+    height: auto;
+    padding: 20px;
+    color: white;
+    border-radius: 3px;
+    margin-top: 10px;
+}

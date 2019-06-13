@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>TEASK HTML</title>
+    <link rel="stylesheet" href="doc_style.css">
+    <script src="js/scholarly.min.js"></script>
+</head>
+
+<body prefix="schema: http://schema.org">
+
+    <article resource="#" typeof="schema:ScholarlyArticle">
+        <header>
+            <h1 property="schema:name">Technical Skill Enhancer - documentatie</h1>
+        </header>
+    </article>
+    <section typeof="sa:AuthorsList">
+        <h2>Authors</h2>
+        <ul>
+            <li typeof="sa:ContributorRole" property="schema:author">
+                <span typeof="schema:Person">
+            <meta property="schema:givenName" content="Lucia">
+            <meta property="schema:additionalName" content="Antonela">
+            <meta property="schema:familyName" content="Tulbure">
+            <span property="schema:name">Lucia Antonela Tulbure</span>
+                </span>
+            </li>
+            <li typeof="sa:ContributorRole" property="schema:author">
+                <span typeof="schema:Person">
+              <meta property="schema:givenName" content="Larisa">
+              <meta property="schema:additionalName" content="Ioana">
+              <meta property="schema:familyName" content="Bumbu">
+              <span property="schema:name">Larisa-Ioana Bardita</span>
+                </span>
+            </li>
+    </section>
+
+    <section id="introduction" role="doc-introduction">
+        <!-- review? -->
+        <h2>Introducere</h2>
+        <p>
+            TEASK isi propune sa fie o platforma online de exersare si invatare a diferitelor limbaje de programare, prin oferirea de sugestii in legatura cu interesele utilizatorului despre diverse evenimente(conferinte, cursuri, workshopuri). Astfel, se creeaza
+            un profil tehnic al acestuia care va avea la baza contorizarea nivelului de cunostinte pe care il are despre diverse limbaje de programare(php, java, javascript, html, css).
+        </p>
+    </section>
+
+    <section id="Api">
+        <h2>Evenimente</h2>
+        <p>
+            <span typeof="schema:Action">
+      Aplicatia noastra are la baza un algoritm bazat pe scraping pentru preluarea evenimentelelor de pe internet. Preluam corpul care este in domeniul nostru de interes si il inseram in baza de date, pentru a putea ulterior sa setam preferintele utilizatorului.
+      Adminul, care este delegat a fi ingrijitorul platformei, este cel care va rula scriptul pentru a mentine actualitatea evenimentelor. 
+      Fiind un element de baza, prezentarea evenimentelor, va reprezenta continutul a doua pagini. Pagina "Events" contine sugestiile oferite de noi in urma comparatiilor intre cerinte cerute de organizatori si nivelul actual al utilizatorului, la care acesta se va putea inscrie.
+      Iar pagina "Knowledge" prezinta evenimentele la care s-a inscris, avand la dispozitie o sectiune dedicata feedbackuli.
+            </span>
+        </p>
+    </section>
+
+
+
+    <section id="gestiune intrebari">
+        <h2>Gestiune intrebari</h2>
+        <p>
+            Este dovedit faptul ca rezolvarea testelor online faciliteaza invatarea. Astfel, am abordat si noi acest aspect punand la dispozitia utilizatorului atat creearea unor teste, cat si posibilitatea de a rezolva. Un prim pas in cresterea nivelului este raspunderea
+            corecta la intrebari. Cu fiecare activitate realizata, scorul pe care il retinem ofera oportunitatea de a participa la evenimente superioare.
+            <p>Gestiune acestora se afla atat la atitudinea adminului care poate introduce intrebari, cat si a celorlalti utilizatori care pot contribui la stergea unei intrebari care este catalogata ca fiind gresita, prea grea sau orice al motiv legat de
+                formularea acesteia.</p>
+        </p>
+        <p>
+            Monitorizarea evolutiei va fi prezentata sub forma unor statistici, pe care utilizatorul le va putea vizualiza oricand in pagina "Activities"
+            <div class=""></div>
+        </p>
+        <p>
+            Toate aceste functionalitati au fost realizate prin operatii pe baza de date ce nu permit sql injection deoarece s-au folosit prepare statment-uri.
+        </p>
+    </section>
+
+    <section id="cod-sursa">
+        <h2>Cod sursa</h2>
+        Codul sursa a fost manageriat folosind platforma github. Modificarile au fost urcate de fiecare coechipier. Task-urile au fost impartite pe trello. Arhitectura aplicatie este de tip MVC.
+    </section>
+
+    <section id="bibliografie">
+        <h2>Bibliografie</h2>
+        <dl>
+            <dt id="ref-schema.org">schema.org</dt>
+            <dd property="schema:citation" typeof="schema:WebPage" resource="http://schema.org/">
+                <cite property="schema:name">
+            <a href="http://www.schema.org/">schema.org</a>
+          </cite>
+            </dd>
+        </dl>
+
+        <dl>
+            <dt id="ref-github-login.org">W3schools</dt>
+            <dd property="schema:citation" typeof="schema:WebPage" resource="https://www.w3schools.com/">
+                <cite property="schema:name">
+             <a href="https://www.w3schools.com/">w3schools.com</a>
+           </cite>
+            </dd>
+        </dl>
+
+        <dl>
+            <dt id="ref-facebook-login.org">Google Charts</dt>
+            <dd property="schema:citation" typeof="schema:WebPage" resource="https://developers.google.com/chart/interactive/docs/gallery/areachart">
+                <cite property="schema:name">
+               <a href="https://developers.google.com/chart/interactive/docs/gallery/areachart">developers.google.com</a>
+             </cite>
+            </dd>
+        </dl>
+
+        <dl>
+            <dt id="ref-video.org">Evenimente IT$C</dt>
+            <dd property="schema:citation" typeof="schema:WebPage" resource="https://www.softlead.ro/evenimente-it-c">
+                <cite property="schema:name">
+                 <a href="https://www.softlead.ro/evenimente-it-c">softlead.ro</a>
+               </cite>
+            </dd>
+        </dl>
+
+
+    </section>
+</body>
+
+</html>

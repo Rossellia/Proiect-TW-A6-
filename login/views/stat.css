@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url("p8.jpg");
+}
+
+form {
+    float: left;
+}
+
+form input {
+    color: white;
+    padding: 10px;
+    margin-left: 60px;
+    background-color: rgb(32, 18, 12);
+    border: 2px solid rgb(32, 18, 12);
+    width: 100px;
+    border-radius: 2px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.header2 {
+    padding: 20px;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+}
+
+.back {
+    float: right;
+    text-decoration: #fff;
+    padding: 5px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.content {}
+
+.cauta {
+    display: block;
+}
+
+.statistics {
+    text-align: center;
+}
+
+img {
+    padding-right: 30px;
+}
+
+ul {
+    padding-bottom: 20px;
+}

@@ -1,0 +1,179 @@
+html{
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    background-image: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url("p8.jpg");
+
+
+
+  }
+  .dislike{
+ margin-top:15px;
+  }
+.cauta{
+    text-decoration: #fff;
+    color:white;
+    padding:5px;
+   
+    cursor:pointer;
+}
+.back{
+  float:right;
+  color: white;
+  padding: 10px;
+  padding-left:20px;
+  margin-left: 60px;
+  background-color: rgb(32, 18, 12);
+  border: 2px solid rgb(32, 18, 12);
+  width: 100px;
+  border-radius: 2px;
+  text-decoration: none;
+
+
+}
+.search{    color: white;
+  padding: 10px;
+  margin-left: 60px;
+  background-color: rgb(32, 18, 12);
+  border: 2px solid rgb(32, 18, 12);
+  width: 100px;
+  border-radius: 2px;}
+h2{
+  text-align: center;
+  color:white;
+}
+.feedback{
+  text-align: center;
+  padding:10px;
+
+}
+  .header2 {
+    padding: 20px;
+    display: inline-block;
+    width:100%;
+    height: auto;
+    
+  }
+  header{
+    text-align: center;
+  }
+  .content{
+
+  }
+  .q1{
+    padding: 30px;
+  }
+  /* Create three equal columns that floats next to each other */
+  .column {
+    /* float: left;*/
+    width: 40%; 
+    font-size:16px;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin-bottom:20px;
+    padding-bottom: 50px;
+    margin-left:33%;
+
+  }
+  
+  /* Clear floats after the columns */
+  /* .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+   */
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width:800px) {
+    .column {
+      width: 100%;
+    }
+    .cauta{
+     display :block;
+    }
+    .box{
+      width: 100%;
+  
+    }
+
+    .close{
+      font-size:10px;
+    }
+    .button{
+      font-size:10px;
+    }
+  }
+
+
+.button:hover{
+  background-color: rgb(129, 121, 118);
+
+}
+.box {
+  
+  margin: auto;
+  padding: 35px;
+ 
+  text-align: center;
+}
+.button {
+  color: white;
+  padding: 10px;
+  margin-left: 60px;
+  background-color: rgb(32, 18, 12);
+  border: 2px solid rgb(32, 18, 12);
+  width: auto;
+  border-radius: 2px;
+}
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 80%;
+  position: relative;
+  transition: all 2s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: rgb(130, 119, 228);
+}
+

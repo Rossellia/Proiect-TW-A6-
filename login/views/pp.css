@@ -1,0 +1,798 @@
+/*cod pentru desktop si ecrane mai mari de 700px*/
+@media screen and (min-width: 700px) {
+    * {
+        box-sizing: border-box;
+      }
+      body{
+          background-image: url("photo-1537037124419-bdc2fa27f648.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          max-width: 100%;
+          height: 100vh;
+      }
+    
+      ul {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+      
+      li {
+        float: right;
+      }
+      .welcome{
+        float:left;
+        color: rgb(255, 255, 255);
+        padding: 14px 16px 5px;
+
+      }
+      li a {
+        display: block;
+        color: rgb(255, 255, 255);
+        float: right;
+        background-color: #111;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover {
+        background-color: rgb(50, 49, 53);
+      }
+    .T:link, .T:visited {
+       text-decoration: none;
+        padding: 15px 25px;
+        padding-left: 100px;
+        padding-right: 100px;
+        font-size:45px;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: black;
+        background-color: rgb(245, 65, 10);
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px rgb(150, 51, 5);
+      
+        transition:  font-size 1s;
+      }
+      
+      .T:hover {
+        background-color: #e45818;
+          font-size: 50px;
+      }
+      .T:active{
+        background-color: #e45818;
+        box-shadow: 0 2px rgb(88, 143, 86);
+        transform: translateY(4px);
+      }
+
+        .E:link, .E:visited {
+          text-decoration: none;
+          padding: 15px 25px;
+          padding-left: 100px;
+          padding-right: 100px;
+          font-size: 45px;
+          text-align: center;
+          cursor: pointer;
+          outline: none;
+          color: rgb(5, 5, 5);
+          background-color: rgb(244, 248, 4);
+          border: none;
+          border-radius: 15px;
+          box-shadow: 0 9px rgb(209, 189, 5);
+        
+          transition:  font-size 2s;
+      
+        }
+        
+        .E:hover {background-color: #ddcf07;
+          font-size: 50px;}
+        
+        .E:active {
+          background-color: #ddcf07;
+          box-shadow: 0 2px #ddcf07;
+          transform: translateY(4px);
+        }
+        .A:link, .A:visited{
+          text-decoration: none;
+          padding: 15px 25px;
+          font-size: 45px;
+          padding-left: 100px;
+          padding-right: 100px;
+          text-align: center;
+          cursor: pointer;
+          outline: none;
+          color: rgb(5, 5, 5);
+          background-color: #4CAF50;
+          border: none;
+          border-radius: 15px;
+          box-shadow: 0 9px rgb(88, 143, 86);
+      
+          transition:  font-size 2s;
+        }
+        
+        .A:hover {background-color: #3e8e41;
+          font-size: 50px;}
+        
+        .A:active {
+          background-color: #3e8e41;
+          box-shadow: 0 2px rgb(88, 143, 86);
+          transform: translateY(4px);
+        }
+        .S:link, .S:visited {
+         
+          padding: 15px 25px;
+          padding-left: 100px;
+          padding-right: 100px;
+          font-size: 45px;
+          text-align: center;
+          cursor: pointer;
+          outline: none;
+          color: rgb(7, 7, 7);
+          background-color: rgb(4, 159, 248);
+          border: none;
+          border-radius: 15px;
+          box-shadow: 0 9px rgb(5, 53, 209);
+       
+          transition:  font-size 2s;
+          text-decoration: none;
+        }
+        
+        .S:hover {background-color: #0690c7;
+          font-size: 50px;}
+        
+        .S:active {
+          background-color: #0690c7;
+          box-shadow: 0 2px #0690c7;
+          transform: translateY(4px);
+        }
+        .K:link, .K:visited {
+          text-decoration: none;
+          padding: 15px 25px;
+          padding-left: 100px;
+          padding-right: 100px;
+          font-size: 45px;
+          text-align: center;
+          cursor: pointer;
+          outline: none;
+          color: black;
+          background-color: rgb(248, 4, 106);
+          border: none;
+          border-radius: 15px;
+          box-shadow: 0 9px rgb(146, 2, 103);
+          
+          transition:  font-size 2s;
+        }
+        
+        .K:hover {background-color: #c90989;
+          
+          font-size: 50px;}
+        
+        .K:active {
+          background-color: #c90989;
+          box-shadow: 0 2px #c90989;
+          transform: translateY(4px);
+        }
+        .buttons  .divT{
+          padding-top: 30px;
+        }
+        .buttons  .divE{
+          padding-top: 30px;
+        }
+        .buttons  .divA{
+          padding-top: 30px;
+        }
+        .buttons  .divS{
+          padding-top: 30px;
+        }
+        .buttons  .divK{
+          padding-top: 35px;
+        }
+      
+        .buttons{
+          padding-left: 1%;
+          padding-top:2%;
+          padding-bottom:2%;
+          max-width: 100%;
+          height: auto;
+          width:26%;
+          display: inline-block;
+          display: block;
+          position:relative;
+      
+        
+        }
+      
+      .buttons .divT .T {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .buttons .divT .T .tooltiptext {
+        visibility: hidden;
+        height:110px;
+        width: 300px;
+      
+        background-color: white;
+        color: black;
+        text-align: center;
+        border-radius: 6px;
+        border :5px solid orangered;
+        padding: 5px 0;
+        position: absolute;
+        z-index: 1;
+        top: -5px;
+        left: 110%;
+        font-size: 20px;
+      }
+      
+      .buttons .divT .T .tooltiptext::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: 100%;
+        margin-top: -5px;
+        border-width: 15px;
+        border-style: solid;
+        border-color: transparent orangered transparent transparent;
+      }
+      .buttons .divT .T:hover .tooltiptext {
+        visibility: visible;
+      }
+      
+      .buttons .divE .E {
+        position: relative;
+        display: inline-block;
+        border-bottom: 1px dotted black;
+      }
+      
+      .buttons .divE .E .tooltiptext {
+        visibility: hidden;
+        height:100px;
+        width:100%;
+      
+        background-color: white;
+        color: black;
+        text-align: center;
+        border-radius: 6px;
+        border :5px solid yellow;
+        padding: 5px 0;
+        position: absolute;
+        z-index: 1;
+        top: -5px;
+        left: 110%;
+        font-size: 20px;
+      }
+      
+      .buttons .divE .E .tooltiptext::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: 100%;
+        margin-top: -5px;
+        border-width: 15px;
+        border-style: solid;
+        border-color: transparent yellow transparent transparent;
+      }
+      .buttons .divE .E:hover .tooltiptext {
+        visibility: visible;
+      }
+      
+      .buttons .divA .A {
+        position: relative;
+        display: inline-block;
+        border-bottom: 1px dotted black;
+      }
+      
+      .buttons .divA .A .tooltiptext {
+        visibility: hidden;
+        height:110px;
+        width:300px;
+      
+        background-color: white;
+        color: black;
+        text-align: center;
+        border-radius: 6px;
+        border :5px solid green;
+        padding: 5px 0;
+        position: absolute;
+        z-index: 1;
+        top: -5px;
+        left: 110%;
+        font-size: 20px;
+      }
+      
+      .buttons .divA .A .tooltiptext::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: 100%;
+        margin-top: -5px;
+        border-width: 15px;
+        border-style: solid;
+        border-color: transparent green transparent transparent;
+      }
+      .buttons .divA .A:hover .tooltiptext {
+        visibility: visible;
+      }
+      
+      .buttons .divS .S {
+        position: relative;
+        display: inline-block;
+        border-bottom: 1px dotted black;
+      }
+      
+      .buttons .divS .S .tooltiptext {
+        visibility: hidden;
+        height:120px;
+        width:100%;
+      
+        background-color: white;
+        color: black;
+        text-align: center;
+        border-radius: 6px;
+        border :5px solid blue;
+        padding: 5px 0;
+        position: absolute;
+        z-index: 1;
+        top: -5px;
+        left: 110%;
+        font-size: 20px;
+      }
+      
+      .buttons .divS .S .tooltiptext::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: 100%;
+        margin-top: -5px;
+        border-width: 15px;
+        border-style: solid;
+        border-color: transparent blue transparent transparent;
+      }
+      .buttons .divS .S:hover .tooltiptext {
+        visibility: visible;
+      }
+      
+      .buttons .divK .K {
+        position: relative;
+        display: inline-block;
+        border-bottom: 1px dotted black;
+      }
+      
+      .buttons .divK .K .tooltiptext {
+        visibility: hidden;
+        height:100px;
+        width:200px;      
+        background-color: white;
+        color: black;
+        text-align: center;
+        border-radius: 6px;
+        border :5px solid blueviolet;
+        padding: 5px 0;
+        position: absolute;
+        z-index: 1;
+        top: -5px;
+        left: 110%;
+        font-size: 20px;
+      }
+      
+      .buttons .divK .K .tooltiptext::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: 100%;
+        margin-top: -5px;
+        border-width: 15px;
+        border-style: solid;
+        border-color: transparent blueviolet transparent transparent;
+      }
+      .buttons .divK .K:hover .tooltiptext {
+        visibility: visible;
+      }
+   
+    }
+
+/*
+
+
+
+
+cod pentru telefoane si ecrane mai mici de 700px
+
+
+
+
+
+*/
+
+@media screen and (max-width: 700px) {
+  
+      body{
+        background-image: url("photo-1515549832467-8783363e19b6.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+          }
+    
+      ul {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(7, 7, 7,0.5);
+      }
+      
+      li {
+        float: right;
+      }
+      
+      li a {
+        display: block;
+        color: rgb(250, 248, 248);
+        background-color: #111;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover {
+        background-color: rgb(37, 22, 121);
+      }
+        .T:link, .T:visited {
+          text-decoration: none;
+          padding-left:20px;
+          padding-right:50px;
+          padding-top:10px; 
+          padding-bottom:10px; 
+          font-size:25px;
+          text-align: center;
+          cursor: pointer;
+          outline: none;
+          color: rgb(0, 0, 0);
+          background-color: rgb(248, 94, 4);
+          border: none;
+          border-radius: 15px;
+          box-shadow: 0 1px rgb(150, 51, 5);
+         
+          transition:  font-size 1s;
+        }
+        
+        .T:hover {background-color: #e45818;
+          font-size: 30px;}
+        
+        .T:active {
+          background-color: #e45818;
+          box-shadow: 0 2px rgb(88, 143, 86);
+          transform: translateY(4px);
+        }
+        .E:link, .E:visited {
+          text-decoration: none;
+            padding-left:20px;
+            padding-right:40px;
+            padding-top:10px; 
+            padding-bottom:10px; 
+            font-size:25px;
+          text-align: center;
+          cursor: pointer;
+          outline: none;
+          color: rgb(5, 5, 5);
+          background-color: rgb(201, 204, 24);
+          border: none;
+          border-radius: 15px;
+          box-shadow: 0 1px rgb(209, 189, 5);
+        
+          transition:  font-size 1s;
+      
+        }
+        
+        .E:hover {background-color: #ddcf07;
+          font-size: 30px;}
+        
+        .E:active {
+          background-color: #ddcf07;
+          box-shadow: 0 2px #ddcf07;
+          transform: translateY(4px);
+        }
+        .A:link, .A:visited {
+         
+            padding-left:20px;
+            padding-right:25px;
+            padding-top:10px; 
+            padding-bottom:10px; 
+            font-size:25px;
+            text-decoration: none;
+          text-align: center;
+          cursor: pointer;
+          outline: none;
+          color: rgb(0, 0, 0);
+          background-color: #4CAF50;
+          border: none;
+          border-radius: 15px;
+          box-shadow: 0 1px rgb(88, 143, 86);
+          
+          transition:  font-size 1s;
+        }
+        
+        .A:hover {background-color: #3e8e41;
+          font-size: 30px;}
+        
+        .A:active {
+          background-color: #3e8e41;
+          box-shadow: 0 2px rgb(88, 143, 86);
+          transform: translateY(4px);
+        }
+        .S:link, .S:visited  {
+          text-decoration: none;
+          padding-left:20px;
+          padding-right:55px;
+          padding-top:10px; 
+          padding-bottom:10px; 
+          font-size:25px;
+          text-align: center;
+          cursor: pointer;
+          outline: none;
+          color: rgb(0, 0, 0);
+          background-color: rgb(4, 159, 248);
+          border: none;
+          border-radius: 15px;
+          box-shadow: 0 1px rgb(5, 53, 209);
+      
+          transition:  font-size 2s;
+        }
+        
+        .S:hover {background-color: #0690c7;
+          font-size: 30px;}
+        
+        .S:active {
+          background-color: #0690c7;
+          box-shadow: 0 2px #0690c7;
+          transform: translateY(4px);
+        }
+        .K:link, .K:visited {
+          text-decoration: none;
+            padding-left:20px;
+          padding-right:20px;
+          padding-top:10px; 
+          padding-bottom:10px; 
+          font-size:25px;
+          text-align: center;
+          cursor: pointer;
+          outline: none;
+          color: rgb(7, 7, 7);
+          background-color: rgb(248, 4, 106);
+          border: none;
+          border-radius: 15px;
+          box-shadow: 0 1px rgb(146, 2, 103);
+          transition:  font-size 2s;
+        }
+        
+        .K:hover {background-color: #c90989;
+          
+          font-size: 30px;}
+        
+        .K:active {
+          background-color: #c90989;
+          box-shadow: 0 2px #c90989;
+          transform: translateY(4px);
+        }
+        .buttons  .divT{
+          padding-top: 5px;
+        }
+        .buttons  .divE{
+          padding-top: 190px;
+        }
+        .buttons  .divA{
+          padding-top: 110px;
+        }
+        .buttons  .divS{
+          padding-top: 115px;
+        }
+        .buttons  .divK{
+          padding-top: 165px;
+        }
+      
+        .buttons{
+          padding-left: 1%;
+          padding-bottom:100px;       
+         
+          display: inline-block;
+          display: block;
+          position:relative;
+        
+        }
+      
+      .buttons .divT .T {
+        position: relative;
+        display: inline-block;
+        border-bottom: 1px solid black;
+      }
+      
+      .buttons .divT .T .tooltiptext {
+        visibility: hidden;
+        height:auto;
+        width:280px;
+        background-color: white;
+        color: black;
+        text-align: center;
+        border-radius: 2px;
+        border :2px solid rgb(247, 101, 4);
+        padding: 1px 0;
+        position: absolute;
+        z-index: 1;
+        top: 150%;
+        left: 50%;
+        margin-left:-60px;
+        font-size: 20px;
+      }
+      
+      .buttons .divT .T .tooltiptext::after {
+        content: "";
+        position: absolute;
+        bottom: 100%;
+        left: 10%;
+        margin-left: -5px;
+        border-width: 10px;
+        border-style: solid;
+        border-color: transparent transparent rgb(247, 101, 4) transparent;
+      }
+      .buttons .divT .T:hover .tooltiptext {
+        visibility: visible;
+      }
+      
+      .buttons .divE .E {
+        position: relative;
+        display: inline-block;
+        border-bottom: 1px solid black;
+      }
+      
+      .buttons .divE .E .tooltiptext {
+        visibility: hidden;
+        height:auto;
+        width:280px;
+        background-color: white;
+        color: black;
+        text-align: center;
+        border-radius: 2px;
+        border :2px solid rgb(243, 247, 4);
+        padding: 1px 0;
+        position: absolute;
+        z-index: 1;
+        top: 150%;
+        left: 50%;
+        margin-left:-60px;
+        font-size: 20px;
+      }
+      
+      .buttons .divE .E .tooltiptext::after {
+        content: "";
+        position: absolute;
+        bottom: 100%;
+        left: 10%;
+        margin-left: -5px;
+        border-width: 10px;
+        border-style: solid;
+        border-color: transparent transparent rgb(219, 238, 49) transparent;
+      }
+      .buttons .divE .E:hover .tooltiptext {
+        visibility: visible;
+      }
+      
+      .buttons .divA .A {
+        position: relative;
+        display: inline-block;
+        border-bottom: 1px solid black;
+      }
+      
+      .buttons .divA .A .tooltiptext {
+        visibility: hidden;
+        height:auto;
+        width:280px;
+        background-color: white;
+        color: black;
+        text-align: center;
+        border-radius: 2px;
+        border :2px solid rgb(56, 155, 47);
+        padding: 1px 0;
+        position: absolute;
+        z-index: 1;
+        top: 150%;
+        left: 50%;
+        margin-left:-60px;
+        font-size: 20px;
+      }
+      
+      .buttons .divA .A .tooltiptext::after {
+        content: "";
+        position: absolute;
+        bottom: 100%;
+        left: 10%;
+        margin-left: -5px;
+        border-width: 10px;
+        border-style: solid;
+        border-color: transparent transparent rgb(47, 158, 65) transparent;
+      }
+      .buttons .divA .A:hover .tooltiptext {
+        visibility: visible;
+      }
+      .buttons .divS .S {
+        position: relative;
+        display: inline-block;
+        border-bottom: 1px solid black;
+      }
+      
+      .buttons .divS .S .tooltiptext {
+        visibility: hidden;
+        height:auto;
+        width:280px;
+        background-color: white;
+        color: black;
+        text-align: center;
+        border-radius: 2px;
+        border :2px solid rgb(29, 118, 201);
+        padding: 1px 0;
+        position: absolute;
+        z-index: 1;
+        top: 150%;
+        left: 50%;
+        margin-left:-60px;
+        font-size: 20px;
+      }
+      
+      .buttons .divS .S .tooltiptext::after {
+        content: "";
+        position: absolute;
+        bottom: 100%;
+        left: 10%;
+        margin-left: -5px;
+        border-width: 10px;
+        border-style: solid;
+        border-color: transparent transparent rgb(52, 119, 206) transparent;
+      }
+      .buttons .divS .S:hover .tooltiptext {
+        visibility: visible;
+      }
+      
+      .buttons .divK .K {
+        position: relative;
+        display: inline-block;
+        border-bottom: 1px solid black;
+      }
+      
+      .buttons .divK .K .tooltiptext {
+        visibility: hidden;
+        height:auto;
+        width:280px;
+        background-color: white;
+        color: black;
+        text-align: center;
+        border-radius: 2px;
+        border :2px solid rgb(170, 14, 136);
+        padding: 1px 0;
+        position: absolute;
+        z-index: 1;
+        top: 150%;
+        left: 35%;
+        margin-left:-60px;
+        font-size: 20px;
+      }
+      
+      .buttons .divK .K .tooltiptext::after {
+        content: "";
+        position: absolute;
+        bottom: 100%;
+        left: 10%;
+        margin-left: -5px;
+        border-width: 10px;
+        border-style: solid;
+        border-color: transparent transparent rgb(173, 10, 146) transparent;
+      }
+      .buttons .divK .K:hover .tooltiptext {
+        visibility: visible;
+      }
+        }
+       
+
+
